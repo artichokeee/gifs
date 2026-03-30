@@ -71,7 +71,7 @@
         <button class="qa-popup-close" id="qa-popup-close">&times;</button>
         <img class="qa-popup-image" src="https://cdn.stepik.net/media/cache/images/courses/280340/cover_1UKiGLu/c7108cd2841e78a486f101f13f8b3f0a.png" alt="Курс Fullstack QA">
         <h3 class="qa-popup-title">Новый пакет из курсов для Fullstak QA: ручное + автоматизация на Stepik!</h3>
-        <a class="qa-popup-button" href="https://stepik.org/course/280340" target="_blank">Перейти к курсу</a>
+        <a class="qa-popup-button" href="https://stepik.org/a/280340" target="_blank">Перейти к курсу</a>
       </div>
     `;
     document.body.appendChild(popup);
