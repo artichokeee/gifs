@@ -2,8 +2,9 @@
   function initPopup() {
     // 1. Проверяем localStorage перед тем, как вообще что-то создавать
     const storageKey = 'qaPromoPopupClosedTime';
-    const delayDays = 3;
+    const delayDays = 30;
     const delayMs = delayDays * 24 * 60 * 60 * 1000;
+
     const lastClosedTime = localStorage.getItem(storageKey);
     const currentTime = new Date().getTime();
     
